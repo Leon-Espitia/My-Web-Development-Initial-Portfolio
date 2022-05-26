@@ -26,7 +26,7 @@ header {
   background: url(./assets/backgrounds/header-shapes\ mobile.png) no-repeat;
 }
 
-.title {  
+.title {
   font-size: 40px;
   padding-top: 40px;
   margin-bottom: 6%;
@@ -54,12 +54,5 @@ nav ul {
 
 nav li {
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
 }
-
-
-
-
-
- 
-
