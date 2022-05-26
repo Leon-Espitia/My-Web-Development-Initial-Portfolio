@@ -1,56 +1,48 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url(./assets/backgrounds/header-background-mobile.png);
   background-color: #e5e5e5;
-  flex-direction: column;
-  position: absolute;
-  width: 375px;
-  height: 718px;
-  margin: 24, 206, 24, 362;
+  background: url(./assets/backgrounds/header-background-mobile.png);
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-top: 3px;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  align-items: center;
 }
 
 .logo {
   color: #6070ff;
-  font-size: 22px;
-}
-
-.menu_icon {
-  position: absolute;
-  right: 10px;
+  font-size: 20px;
+  flex: auto;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  background: url(./assets/backgrounds/header-shapes\ mobile.png);
+  background: url(./assets/backgrounds/header-shapes\ mobile.png) no-repeat;
 }
 
-.title {
-  font-size: 45px;
-  width: 327px;
-  height: 150px;
+.title {  
+  font-size: 40px;
+  padding-top: 40px;
+  margin-bottom: 6%;
 }
 
 .headline_content {
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
   color: #344563;
   margin-top: auto;
 }
 
 .lets {
   color: #6070ff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .social_icons {
