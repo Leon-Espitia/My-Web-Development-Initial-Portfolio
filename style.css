@@ -1,12 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: url(./assets/backgrounds/header-background-mobile.png);
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   flex-direction: column;
   position: absolute;
   width: 375px;
   height: 718px;
-  margin: 24, 206, 24,362;
+  margin: 24, 206, 24, 362;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 22px;
 }
 
@@ -49,9 +49,10 @@ header {
 }
 
 .lets {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 18px;
 }
+
 .social_icons {
   display: flex;
   flex-direction: row;
