@@ -45,12 +45,21 @@ header {
   font-size: 15px;
 }
 
-.social_icons {
+nav ul {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0%;
-  gap: 16px;
-  width: 117px;
-  height: 24px;
+  gap: 18px;
+  padding-left: 0%;
+  margin-top: 0%;
 }
+
+nav li {
+  display: flex;
+  align-items: flex-end
+}
+
+
+
+
+
+ 
+
