@@ -1,58 +1,84 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: url(./assets/backgrounds/header-background-mobile.png);
-  background-color: #e5e5e5;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding-top: 3px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="style.css">
+    <title>Leon's Portfolio</title>
+</head>
+<body>
+    <main>
+        <section class="picture_container">
+            <img src="./assets/pictures/picture1.jpg" alt=""/>
+        <div class="info_container">   
+            <h1 class="title">Tonic</h1>
+            <div class="tonic_1">
+                <img src="./assets/img-block1/Frame1.png" alt="">   
+            </div>
+            <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/html.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/css.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/javascript.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="" target="_blank">
+                    <img src="./assets/img-block1/See_project.png" alt="">
+                </a>
+            </div>
+        </div>                
+        </section>
 
-header {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  align-items: center;
-}
-
-.logo {
-  color: #6070ff;
-  font-size: 20px;
-  flex: auto;
-}
-
-.headline {
-  display: flex;
-  flex-direction: column;
-  background: url(./assets/backgrounds/header-shapes\ mobile.png) no-repeat;
-}
-
-.title {
-  font-size: 40px;
-  padding-top: 40px;
-  margin-bottom: 6%;
-}
-
-.headline_content {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 20px;
-  color: #344563;
-  margin-top: auto;
-}
-
-.lets {
-  color: #6070ff;
-  font-size: 15px;
-}
-
-nav ul {
-  display: flex;
-  gap: 18px;
-  padding-left: 0%;
-  margin-top: 0%;
-}
-
-nav li {
-  display: flex;
-  align-items: flex-end;
-}
+        <section class="picture_container">
+            <img src="./assets/pictures/picture1.jpg" alt=""/>
+        <div class="info_container">   
+            <h1 class="title">Tonic</h1>
+            <div class="tonic_1">
+                <img src="./assets/img-block1/Frame1.png" alt="">   
+            </div>
+            <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/html.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/css.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="./assets/img-block1/javascript.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="" target="_blank">
+                    <img src="./assets/img-block1/See_project.png" alt="">
+                </a>
+            </div>
+        </div>                
+        </section>
+    </main>
+</body>
+</html>
