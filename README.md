@@ -1,6 +1,6 @@
 # Portfolio-project-set-up-and-mobile-version-skeleton
-- Project1: To parse 2 sections from a Figma portfolio design.
-- Project2: Add "Work" and "About myself" sections from Figma.
+- Project_1: To parse 2 sections from a Figma portfolio design.
+- Project_2: Add "Work" and "About myself" sections from Figma.
 
 ## Built With
 
