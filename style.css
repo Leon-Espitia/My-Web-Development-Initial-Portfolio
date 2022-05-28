@@ -48,3 +48,7 @@ nav li {
   display: flex;
   align-items: flex-start;
 }
+
+.about_myself {
+    background: url(./assets/img-block1/base.png) no-repeat
+}
