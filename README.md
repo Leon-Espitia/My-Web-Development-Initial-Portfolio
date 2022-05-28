@@ -4,9 +4,11 @@ Replicate Figma´s personal portfolio (template 1).
 ## Built With
 
 - HTML
-- CSS(Flexbox/Grid)
-- Figma
+- CSS
+- Flexbox
+- Grid
 - Linters
+- Figma (Template 1)
 
 ## Getting Started
 
@@ -28,7 +30,8 @@ Feel free to check the issues page.
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Template from Figma
+- Template from Figma.
+- educative.io
 
 📝 License
 - This project is MIT licensed.
