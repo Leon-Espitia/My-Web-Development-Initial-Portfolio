@@ -1,8 +1,67 @@
 body {
-  background-color: #e5e5e5;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(./assets/backgrounds/header-background-mobile.png);
+  background-color: #e5e5e5;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-top: 3px;
 }
 
+header {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 20px;
+  flex: auto;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: url(./assets/backgrounds/header-shapes\ mobile.png) no-repeat;
+}
+
+.title {
+  font-size: 37px;
+  padding-top: 40px;
+  line-height: 40px;
+  margin-top: 12px;
+  margin-bottom: 4%;
+}
+
+.headline_content {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #344563;
+  margin-top: auto;
+}
+
+.lets {
+  color: #6070ff;
+  font-size: 14px;
+}
+
+nav ul {
+  display: flex;
+  gap: 18px;
+  padding-left: 0%;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 5px;
+}
+
+nav li {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* mileston 2 */
 .picture_container {
   display: grid;
   justify-items: center;
@@ -19,13 +78,6 @@ body {
   margin-top: 0%;
 }
 
-.title {
-  font-size: 33px;
-  line-height: 40px;
-  margin-top: 12px;
-  margin-bottom: 1px;
-}
-
 .content {
   font-size: 15px;
   line-height: 25px;
@@ -36,20 +88,6 @@ body {
 .tonic_1 h1 {
   justify-self: start;
   padding: 1px;
-}
-
-nav ul {
-  display: flex;
-  gap: 8px;
-  padding-left: 0%;
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-bottom: 5px;
-}
-
-nav li {
-  display: flex;
-  align-items: flex-start;
 }
 
 .see_button {
@@ -71,11 +109,6 @@ nav li {
 #myself_div {
   background: url(./assets/img-block1/base.png);
   padding-right: 10%;
-}
-
-.lets {
-  color: #6070ff;
-  font-size: 14px;
 }
 
 .about_myself {
