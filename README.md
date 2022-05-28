@@ -1,15 +1,17 @@
 # Portfolio-project-set-up-and-mobile-version-skeleton
-- Project_1: To parse 2 sections from a Figma portfolio design.
-- Project_2: Add "Work" and "About myself" sections from Figma.
+Replicate Figma´s personal portfolio (template 1). 
 
 ## Built With
 
 - HTML
-- CSS/Flexbox/Grid
+- CSS(Flexbox/Grid)
 - Figma
 - Linters
 
-## Authors
+## Getting Started
+
+- Prerequisite: None
+- Usage: Personal portfolio
 
 👤 **Author**
 
@@ -25,7 +27,10 @@ Feel free to check the issues page.
 ## Show your support
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+- Template from Figma
+
 📝 License
-This project is MIT licensed.
+- This project is MIT licensed.
 
 
