@@ -126,6 +126,8 @@ nav li {
 .lan {
   flex-direction: column;
   padding-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .words {
@@ -136,15 +138,27 @@ nav li {
   padding-bottom: 10px;
   font-weight: 900;
 }
+
+.union { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 5px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  margin-right: 33px;
+  padding-top: -10px;
+  
+}
 /*setup buttons*/
 
-.get_butoon:hover.see_button:hover {
+.get_button:hover.see_button:hover {
   background: #4451c7;
-  color: rgb(142, 147, 172);
-  border: 1px solid #1a2236;
+  color: rgb(1, 2, 6);
+  border: 1px solid #1a2276;
 }
 
-.get_butoon:active.see_button:active {
-  border: 3px solid #1a2236;
+.get_button:active.see_button:active {
+  border: 3px solid #1a2276;
 }
 
