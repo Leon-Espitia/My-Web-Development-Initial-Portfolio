@@ -1,14 +1,19 @@
 # Portfolio-project-set-up-and-mobile-version-skeleton
-Project: To parse 2 sections from a Figma portfolio design.
+Replicate Figma´s personal portfolio (template 1). 
 
 ## Built With
 
 - HTML
-- CSS/Flexbox
-- Figma
+- CSS
+- Flexbox
+- Grid
 - Linters
+- Figma (Template 1)
 
-## Authors
+## Getting Started
+
+- Prerequisite: None
+- Usage: Personal portfolio
 
 👤 **Author**
 
@@ -24,7 +29,11 @@ Feel free to check the issues page.
 ## Show your support
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+- Template from Figma.
+- educative.io
+
 📝 License
-This project is MIT licensed.
+- This project is MIT licensed.
 
 
