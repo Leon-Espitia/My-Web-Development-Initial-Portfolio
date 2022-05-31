@@ -253,3 +253,81 @@ h2 {
 .get_button:active.see_button:active {
   border: 3px solid #1a2276;
 }
+
+/*contact form*/
+.contac_me {
+  background-color: #6070ff;
+  width: 375px;
+  border-top-left-radius: 70px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.text_area_contac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+#contact_title {
+  margin-bottom: 2px;
+  padding-top: 80px;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+#contact_text {
+  align-items: center;
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.form_area_contact {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: -35px;
+  gap: 8px;
+  margin-right: 8px;
+  align-items: stretch;
+  border: 0px;
+}
+
+#name_contact {
+  border-radius: 5px;
+  border: 0px;
+  padding: 5%;
+}
+
+#email_contact {
+  border-radius: 5px;
+  border: 0px;
+  padding: 5%;
+}
+
+#textarea_contact {
+  border-radius: 5px;
+  border: 0px;
+  padding: 5%;
+}
+
+#submit_btn {
+  background-color: #fff;
+  color: #6070ff;
+  width: fit-content;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5%;
+  cursor: pointer;
+}
+
+#submit_btn:hover {
+  background: #4451c7;
+  color: rgb(1, 2, 6);
+  border: 1px solid #1a2276;
+}
