@@ -1,10 +1,15 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url(./assets/backgrounds/header-background-mobile.png) no-repeat;
   background-color: #e5e5e5;
   margin-right: 35px;
   margin-left: 35px;
   padding-top: 3px;
+}
+/* Header */
+.intro_card {
+  margin: 0%;
+  g: 12%;
+  
 }
 
 header {
@@ -14,16 +19,17 @@ header {
   align-items: center;
 }
 
-.logo {
+#logo {
   color: #6070ff;
+  background-color: #fff;
   font-size: 20px;
   flex: auto;
 }
 
+/* Main/Headline */
 .headline {
   display: flex;
   flex-direction: column;
-  background: url(./assets/backgrounds/header-shapes\ mobile.png) no-repeat;
 }
 
 .title {
@@ -62,6 +68,69 @@ div li {
   align-items: flex-end;
 }
 
+/* media/header */
+@media (max-width: 767px) {
+  .intro_card {
+    background-image: url(./assets/backgrounds/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
+    padding: 50px;
+    margin-left: -35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro_card {
+    background: #fff;
+    background-image:url(./assets/backgrounds/Header\ Background\ 768px..png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 30%;
+    border-bottom-left-radius: 70px;
+    margin: -5%;
+    padding: 20%;
+    padding-bottom: 0.01px;
+  }
+
+  .menu_icon {
+
+  }
+
+  .headline_content {
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 0.01px;
+    padding-bottom: 10px;
+  }
+  .headline {
+    margin-top: -64px;
+    margin-right: -6px;
+    margin-left: -3px;
+  }
+  
+  #menu_icon {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20%;
+    font-size: 64%;
+  }
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: -54px;
+  margin-left: -54px;
+  margin-top: -100px;
+}
+
+
 /* mileston 2 */
 .grid_container {
   display: grid;
@@ -79,7 +148,7 @@ div li {
   display: grid;
   grid-column: 2/5;
   grid-template-rows: 45px 50px;
-  align-items: end;
+  align-items: end;7
   justify-items: start;
   margin: 5px;
 }
