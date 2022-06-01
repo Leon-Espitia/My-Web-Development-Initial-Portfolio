@@ -167,7 +167,10 @@ h2 {
 /* about myself area */
 #myself_div {
   background: url(./assets/img-block1/base.png);
+  background-repeat: no-repeat;
   padding-right: 10%;
+  margin-left: -34px;
+  width: fit-content;
 }
 
 .about_myself {
@@ -252,4 +255,92 @@ h2 {
 
 .get_button:active.see_button:active {
   border: 3px solid #1a2276;
+}
+
+/* contact form start here */
+.contact_me {
+  background-image: url(./assets/backgrounds/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: 62%;
+  background-position-x: right;
+  background-color: #6070ff;
+  border-top-left-radius: 70px;
+  padding-bottom: 10px;
+  margin-top: 9px;
+  margin-left: -34px;
+  margin-right: -15px;
+}
+
+.text_area_contac {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+#contact_title {
+  margin-bottom: 2px;
+  padding-top: 80px;
+  font-size: 38px;
+  line-height: 50px;
+}
+
+#contact_text {
+  font-size: 19px;
+  line-height: 26px;
+  padding-left: 9%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.form_area_contact {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: -8px;
+  gap: 8px;
+  margin-right: 8px;
+  align-items: stretch;
+}
+
+#name_contact {
+  border-radius: 8px;
+  border: 0.001px;
+  padding: 5%;
+}
+
+#email_contact {
+  border-radius: 8px;
+  border: 0.001px;
+  padding: 5%;
+}
+
+#textarea_contact {
+  border-radius: 8px;
+  border: 0.001px;
+  padding: 5%;
+}
+
+#submit_btn {
+  background-color: #fff;
+  color: #6070ff;
+  width: 38%;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 4%;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 0.001px;
+  inline-size: -20px;
+}
+
+#submit_btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+#submit_btn:disabled {
+  background: #fff;
+  color: rgb(71, 72, 75);
+  border: 1px solid #888991;
 }
