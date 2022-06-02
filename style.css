@@ -8,7 +8,7 @@ body {
 /* Header */
 .intro_card {
   margin: 0%;
-  g: 12%;
+  gap: 12%;
   
 }
 
@@ -25,6 +25,21 @@ header {
   font-size: 20px;
   flex: auto;
 }
+
+
+/* Burguer */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Main/Headline */
 .headline {
@@ -69,7 +84,7 @@ div li {
 }
 
 /* media/header */
-@media (max-width: 767px) {
+media (max-width: 767px) {
   .intro_card {
     background-image: url(./assets/backgrounds/header-shapes\ mobile.png);
     background-repeat: no-repeat;
@@ -81,7 +96,7 @@ div li {
   }
 }
 
-@media (min-width: 768px) {
+media (min-width: 768px) {
   .intro_card {
     background: #fff;
     background-image:url(./assets/backgrounds/Header\ Background\ 768px..png);
