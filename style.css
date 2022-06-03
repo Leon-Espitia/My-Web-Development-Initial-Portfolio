@@ -200,6 +200,12 @@ h2 {
   color: #396df2;
 }
 
+.get_button:hover {
+  transition: ease-out 3s;
+  cursor: pointer;
+  box-shadow: inset 300px 0 0 0 #6070ff;
+}
+
 .myself {
   display: flex;
   flex-direction: column;
