@@ -502,8 +502,9 @@ h2 {
     flex-direction: row;
     padding-bottom: 20px;
     margin-top: 40px;
-    margin-left: 7px;
+    margin-left: -19px;
     margin-bottom: 10px;
+    padding-right: 71px;
   }
 
   .union {
@@ -585,18 +586,158 @@ h2 {
   border: 3px solid #1a2276;
 }
 
-/* contact form start here */
-.contact_me {
-  background-image: url(./assets/backgrounds/contact\ form\ shapes-mobile@2x.png);
-  background-repeat: no-repeat;
-  background-size: 62%;
-  background-position-x: right;
-  background-color: #6070ff;
-  border-top-left-radius: 70px;
-  padding-bottom: 10px;
-  margin-left: -34px;
-  margin-right: -28px;
+/* Contact-Form mobile limits */
+@media (max-width: 768px) {
+  .contact_me {
+    background-image: url(./assets/backgrounds/contact\ form\ shapes-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position-x: right;
+    background-color: #6070ff;
+    border-top-left-radius: 70px;
+    padding-bottom: 10px;
+    margin-left: -34px;
+    margin-right: -28px;
+  }
+
+  #contact_title {
+    margin-bottom: 2px;
+    padding-top: 80px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  #contact_text {
+    font-size: 19px;
+    line-height: 26px;
+    padding-left: 9%;
+    padding-right: 10%;
+    text-align: center;
+  }
+
+  .form_area_contact {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: -8px;
+    gap: 8px;
+    margin-right: 8px;
+    align-items: stretch;
+  }
+
+  #name_contact {
+    border-radius: 8px;
+    border: 0.001px;
+    padding: 5%;
+  }
+  
+  #email_contact {
+    border-radius: 8px;
+    border: 0.001px;
+    padding: 5%;
+  }
+  
+  #textarea_contact {
+    border-radius: 8px;
+    border: 0.001px;
+    padding: 5%;
+  }
+
+  #submit_btn {
+    background-color: #fff;
+    color: #6070ff;
+    width: 38%;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 4%;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 0.001px;
+    inline-size: -20px;
+  }
 }
+
+/* Contact-Form Desktop settings */
+
+@media (min-width: 768px) {
+  .contact_e {
+    display: none;
+  }
+
+  #contact_me {
+    background-color: #6070ff;
+    border-top-left-radius: 70px;
+    background-image: url(./assets/backgrounds/contact\ form\ background\ 768px.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 44% 15%;
+    margin: -60px -35px 0px -35px;
+  }
+
+  #contact_title {
+    margin-bottom: 2px;
+    padding-top: 80px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  #contact_text {
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    margin-top: -6px;
+  }
+
+  .form_area_contact {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: -24px;
+    gap: 12px;
+    margin-right: 25%;
+    margin-left: 25%;
+    align-items: stretch;
+    border-radius: 0%;
+  }
+
+  #name_contact {
+    border-radius: 2px;
+    border: 0.001px;
+    padding: 4%;
+  }
+  
+  #email_contact {
+    border-radius: 2px;
+    border: 0.001px;
+    padding: 4%;
+  }
+  
+  #textarea_contact {
+    border-radius: 2px;
+    border: 0.001px;
+    padding: 4%;
+  }
+
+  #submit_btn {
+    background-color: #fff;
+    color: #6070ff;
+    width: 38%;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 4%;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 0.001px;
+    inline-size: -20px;
+    margin-left: 25%;
+  }
+
+}
+
+/* contact form start here */
+
 
 .text_area_contac {
   display: flex;
@@ -605,61 +746,15 @@ h2 {
   color: #fff;
 }
 
-#contact_title {
-  margin-bottom: 2px;
-  padding-top: 80px;
-  font-size: 38px;
-  line-height: 50px;
-}
 
-#contact_text {
-  font-size: 19px;
-  line-height: 26px;
-  padding-left: 9%;
-  padding-right: 10%;
-  text-align: center;
-}
 
-.form_area_contact {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  margin-top: -8px;
-  gap: 8px;
-  margin-right: 8px;
-  align-items: stretch;
-}
 
-#name_contact {
-  border-radius: 8px;
-  border: 0.001px;
-  padding: 5%;
-}
 
-#email_contact {
-  border-radius: 8px;
-  border: 0.001px;
-  padding: 5%;
-}
 
-#textarea_contact {
-  border-radius: 8px;
-  border: 0.001px;
-  padding: 5%;
-}
 
-#submit_btn {
-  background-color: #fff;
-  color: #6070ff;
-  width: 38%;
-  font-weight: 500;
-  border-radius: 8px;
-  padding: 4%;
-  cursor: pointer;
-  margin-top: 12px;
-  border: 0.001px;
-  inline-size: -20px;
-}
+
+
+
 
 #submit_btn:hover {
   background: #6070ff;
