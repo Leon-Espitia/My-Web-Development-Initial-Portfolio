@@ -137,7 +137,7 @@ div li {
     padding: 10px 50px 0.01px 50px;
     margin-right: 9%;
     margin-left: 3%;
-    }
+  }
 
   .menu_ha_content {
     color: #344563;
@@ -185,7 +185,7 @@ div li {
 
   /* Desktop responsive setting Card´s Group */
 
-    .grid_container {
+  .grid_container {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #fff;
@@ -236,7 +236,6 @@ div li {
   .content {
     font-size: 13px;
     line-height: 21px;
-    
     margin-left: 29px;
   }
 
@@ -283,7 +282,6 @@ div li {
     padding-top: 0.01px;
     padding-bottom: 0.01px;
   }
-
 }
 
 /* Cards' mobile limits */
@@ -561,15 +559,14 @@ h2 {
     padding-top: 10px;
     margin-right: 27%;
   }
-  
+
   .myself {
     display: flex;
     flex-direction: column;
     line-height: 28px;
     margin-left: 348px;
-    /*margin-right: 400px;*/
     padding-top: 68px;
-    padding-bottom: 12%; 
+    padding-bottom: 12%;
   }
 
   #content_about {
@@ -619,7 +616,6 @@ h2 {
 
   #nav_about {
     margin-left: 20px;
-    
   }
 
   .title_about {
@@ -633,9 +629,9 @@ h2 {
 
   #language {
     padding-top: 12%;
-    margin-left: -217px;    
+    margin-left: -217px;
     margin-right: 317px;
-    padding-left: 0%;
+    padding-left: 0.01px;
   }
 
   .lan {
@@ -683,7 +679,6 @@ h2 {
   margin-left: -258px;
   margin-right: -34px;
   margin-top: 12%;
- 
 }
 
 .about_myself {
@@ -867,12 +862,11 @@ h2 {
     background-color: #6070ff;
     color: white;
   }
-  
+
   .submit_btn:active {
     background-color: #2230d2;
     color: white;
   }
-  
 }
 
 /* contact form start here */
@@ -933,7 +927,7 @@ h2 {
   background-color: #6070ff;
   color: white;
 }
- 
+
 .get_button:active {
   background-color: #2230d2;
   color: white;
