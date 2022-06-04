@@ -68,32 +68,11 @@
                     </div>
                 </article>
             </div>
-<!--Milestone 2. Card_1 starts from here--> 
-            <article class="grid_container" id="grid_container_D">                         
-                <img id="picture1" class="grid_elements grid_elements_D" src="./assets/pictures/picture1.jpg" alt=""/>
-                    <div class="grid_elements" id="elements_D">                       
+<!--Card_1 starts from here--> 
+            <article class="grid_container"  id="directed">
+                <img class="grid_elements" src="./assets/pictures/picture1.jpg" alt=""/>
+                    <div class="grid_elements" id="directed_elements">                       
                         <h2 class="title1_">Tonic</h2>
-                            <div class="canopy_line">
-                                <a class="canopy">CANOPY</a>   
-                                <a class="bull">&bull;</a>  
-                                <a class="bull">Back End Dev</a>  
-                                <a class="bull" >&bull;</a>  
-                                <a class="bull">2022</a>                  
-                            </div>
-                        <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <div class="program">
-                            <button type="button" class="pro">html</button>
-                            <button type="button" class="pro">css</button>
-                            <button type="button" class="pro">javascript</button>                               
-                        </div>
-                        <button type="button" class="see_button">See Project</button>
-                    </div>                                  
-            </article>
-<!--card_2 starts from here-->
-            <article class="grid_container" id="grid_container_D_2">
-                <img id="picture2" class="grid_elements grid_elements_D" src="./assets/pictures/picture2.jpg" alt=""/>
-                    <div class="grid_elements" id="elements_D1">                       
-                        <h2 class="title2_">Multi-Post<br>Stories</h2>
                             <div class="canopy_line">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
@@ -110,10 +89,31 @@
                         <button type="button" class="see_button">See Project</button>
                     </div>                
             </article>
+<!--card_2 starts from here-->
+            <article class="grid_container" id="reversed">
+                <img class="grid_elements" src="./assets/pictures/picture2.jpg" alt=""/>
+                    <div class="grid_elements" id="reversed_elements">                       
+                        <h2 class="title1_r">Tonic</h2>
+                            <div class="canopy_line_r">
+                                <a class="canopy">CANOPY</a>   
+                                <a class="bull">&bull;</a>  
+                                <a class="bull">Back End Dev</a>  
+                                <a class="bull" >&bull;</a>  
+                                <a class="bull">2022</a>                  
+                            </div>
+                        <p class="content_r">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <div class="program_r">
+                            <button type="button" class="pro">html</button>
+                            <button type="button" class="pro">css</button>
+                            <button type="button" class="pro">javascript</button>                               
+                        </div>
+                        <button type="button" class="see_button">See Project</button>
+                    </div>                
+            </article>
 <!--card_3 starts from here-->        
-            <article class="grid_container grid_container_D">
+            <article class="grid_container" id="direct">
                 <img class="grid_elements" src="./assets/pictures/picture3.jpg" alt=""/>
-                    <div class="grid_elements" id="grid_elements_D">                       
+                    <div class="grid_elements" id="direct_elements">                       
                         <h2 class="title1_">Tonic</h2>
                             <div class="canopy_line">
                                 <a class="canopy">CANOPY</a>   
@@ -132,28 +132,28 @@
                     </div>                
             </article>
 <!--card_4 starts from here-->
-            <article class="grid_container" id="grid_container_D_2_1">
-                <img id="picture2_1" class="grid_elements" src="./assets/pictures/picture4.jpg" alt=""/>
-                    <div class="grid_elements" id="elements_D1_">                       
-                        <h2 class="title2_">Multi-Post<br>Stories</h2>
-                            <div class="canopy_line">
+            <article class="grid_container" id="reverse">
+                <img class="grid_elements" src="./assets/pictures/picture4.jpg" alt=""/>
+                    <div class="grid_elements" id="reverse_elements">                       
+                        <h2 class="title1_r">Tonic</h2>
+                            <div class="canopy_line_r">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
                                 <a class="bull">Back End Dev</a>  
                                 <a class="bull" >&bull;</a>  
                                 <a class="bull">2022</a>                  
                             </div>
-                        <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <div class="program">
+                        <p class="content_r">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <div class="program_r">
                             <button type="button" class="pro">html</button>
                             <button type="button" class="pro">css</button>
                             <button type="button" class="pro">javascript</button>                               
                         </div>
                         <button type="button" class="see_button">See Project</button>
                     </div>                
-            </article>                     
+            </article>
 <!--about myself section from here-->
-            <section>    
+            <section class="about">    
                 <div class="picture_container" id="myself_div">
                     <div class="myself">   
                         <h2 class="title_about">About<br>Myself</h2>
@@ -164,7 +164,7 @@
 
                         <p class="lets_about">LET'S CONNECT</p>
 
-                        <nav>
+                        <nav id="nav_about">
                             <ul class="social" id="social">
                                 <li>
                                     <a href="https://github.com/Leon-Espitia" rel="noopener">
@@ -220,12 +220,12 @@
                             <a class="words">Frameworks</a>
                             <i id="angle_" class="fa-solid fa-angle-right"></i>
                         </div>    
-                        <hr>
+                        <hr class="line">                                  
                         <div class="union">    
                             <a class="words">Skills</a>
                             <i id="angle_1" class="fa-solid fa-angle-right"></i>
                         </div> 
-                        <hr>                        
+                        <hr class="line">                        
                     </div>                   
                 </div> 
             </section>   
@@ -247,7 +247,7 @@
                     <input type="email" id="email_contact" placeholder="Email" required>
                     <textarea name="user_message" id="textarea_contact" rows="7" maxlength="500" placeholder="Write your message here" required></textarea>
                     
-                    <button type="submit" id="submit_btn" >Get It Touch</button>    
+                    <button type="submit" class="submit_btn">Get It Touch</button>    
                 </form>      
             </section>
         </main>
