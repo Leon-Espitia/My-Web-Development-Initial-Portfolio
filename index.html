@@ -5,67 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Espitia</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-    <link rel="stylesheet" href="style.css">   
+    <script src="https://kit.fontawesome.com/f4b6ab78d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro"><link rel="stylesheet" href="style.css">   
 </head>
   <body>
-        <header>
-            <a class="logo">Leon Espitia</a>
-            <nav class="menu_icon">
-                <div>
-                    <img src="./assets/icons/Hamburguer.svg" alt=""/>
-                </div>  
-            </nav>
-        </header>
-
         <main>
-            <article class="headline">
-                <h1 class="title">I'm Leon. Happy to see you!</h1>
-                <p class="headline_content">
-                I'm a software developer! I can help you build a product,
-                feature or website Look through some of my work and experience! 
-                If you like what you see and have a project you need coded, 
-                don't hestiate to contact me.
-                </p>
+            <div class="intro_card">
+                <header class="header_mobile">    
+                    <div class="logo">Leon Espitia</div>                
+                    <nav>
+                        <div id="burguer"><i class="fa-solid fa-bars"></i></div>                        
+                        
+                        <ul class="menu_ha_content">
+                            <li><a href=""></a>Portfolio</li>
+                            <li><a href=""></a>About</li>
+                            <li><a href=""></a>Contact</li>
+                        </ul>                          
+                    </nav>
+                </header>
+            
+                <article id="header_background">
+                    <div class="headline">
+                        <h1 class="title">I'm Leon<br>Happy to see you!</h1>
+                        <p class="headline_content">
+                        I'm a software developer! I can help you build a product,
+                        feature or website Look through some of my work and experience! 
+                        If you like what you see and have a project you need coded, 
+                        don't hestiate to contact me.
+                        </p>
 
-                <p class="lets">LET'S CONNECT</p>
-                
-                <div>
-                <ul>
-                    <li>
-                    <a href="" target="_blank">
-                        <img src="./assets/icons/Twiter.svg" alt=""/>
-                    </a>
-                    </li>  
-                    <li>
-                    <a href="" target="_blank">
-                        <img src="./assets/icons/Linkedin_icon.png" alt=""/>
-                    </a>
-                    </li>
-                    <li>  
-                    <a href="" target="_blank">
-                        <img src="./assets/icons/M.svg" alt=""/>
-                    </a>
-                    </li>
-                    <li>  
-                    <a href="" target="_blank">
-                        <img src="./assets/icons/Github.svg" alt=""/>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="" target="_blank">
-                        <img src="./assets/icons/Fin.svg" alt=""/>
-                    </a>
-                    </li>  
-                </ul>  
-                </div>
-            </article>
-<!--milestone 2. card_1 starts from here--> 
-            <article class="grid_container">
+                        <p class="lets">LET'S CONNECT</p>
+                        
+                        <div>
+                            <ul>
+                                <li>
+                                <a href="" target="_blank">
+                                    <img src="./assets/icons/Twiter.svg" alt=""/>
+                                </a>
+                                </li>  
+                                <li>
+                                <a href="" target="_blank">
+                                    <img src="./assets/icons/Linkedin_icon.png" alt=""/>
+                                </a>
+                                </li>
+                                <li>  
+                                <a href="" target="_blank">
+                                    <img src="./assets/icons/M.svg" alt=""/>
+                                </a>
+                                </li>
+                                <li>  
+                                <a href="" target="_blank">
+                                    <img src="./assets/icons/Github.svg" alt=""/>
+                                </a>
+                                </li>
+                                <li> 
+                                <a href="" target="_blank">
+                                    <img src="./assets/icons/Fin.svg" alt=""/>
+                                </a>
+                                </li>  
+                            </ul>  
+                        </div>
+                    </div>
+                </article>
+            </div>
+<!--Card_1 starts from here--> 
+            <article class="grid_container"  id="directed">
                 <img class="grid_elements" src="./assets/pictures/picture1.jpg" alt=""/>
-                    <div class="grid_elements">                       
-                        <h2 class="title">Tonic</h2>
+                    <div class="grid_elements" id="directed_elements">                       
+                        <h2 class="title1_">Tonic</h2>
                             <div class="canopy_line">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
@@ -83,19 +90,19 @@
                     </div>                
             </article>
 <!--card_2 starts from here-->
-            <article class="grid_container">
-                <img id="picture2" class="grid_elements" src="./assets/pictures/picture2.jpg" alt=""/>
-                    <div class="grid_elements">                       
-                        <h2 class="title">Multi-Post<br>Stories</h2>
-                            <div class="canopy_line">
+            <article class="grid_container" id="reversed">
+                <img class="grid_elements" src="./assets/pictures/picture2.jpg" alt=""/>
+                    <div class="grid_elements" id="reversed_elements">                       
+                        <h2 class="title1_r">Tonic</h2>
+                            <div class="canopy_line_r">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
                                 <a class="bull">Back End Dev</a>  
                                 <a class="bull" >&bull;</a>  
                                 <a class="bull">2022</a>                  
                             </div>
-                        <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <div class="program">
+                        <p class="content_r">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <div class="program_r">
                             <button type="button" class="pro">html</button>
                             <button type="button" class="pro">css</button>
                             <button type="button" class="pro">javascript</button>                               
@@ -104,10 +111,10 @@
                     </div>                
             </article>
 <!--card_3 starts from here-->        
-            <article class="grid_container">
+            <article class="grid_container" id="direct">
                 <img class="grid_elements" src="./assets/pictures/picture3.jpg" alt=""/>
-                    <div class="grid_elements">                       
-                        <h2 class="title">Tonic</h2>
+                    <div class="grid_elements" id="direct_elements">                       
+                        <h2 class="title1_">Tonic</h2>
                             <div class="canopy_line">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
@@ -125,40 +132,40 @@
                     </div>                
             </article>
 <!--card_4 starts from here-->
-            <article class="grid_container">
-                <img id="picture4" class="grid_elements" src="./assets/pictures/picture4.jpg" alt=""/>
-                    <div class="grid_elements">                       
-                        <h2 class="title">Multi-Post<br>Stories</h2>
-                            <div class="canopy_line">
+            <article class="grid_container" id="reverse">
+                <img class="grid_elements" src="./assets/pictures/picture4.jpg" alt=""/>
+                    <div class="grid_elements" id="reverse_elements">                       
+                        <h2 class="title1_r">Tonic</h2>
+                            <div class="canopy_line_r">
                                 <a class="canopy">CANOPY</a>   
                                 <a class="bull">&bull;</a>  
                                 <a class="bull">Back End Dev</a>  
                                 <a class="bull" >&bull;</a>  
                                 <a class="bull">2022</a>                  
                             </div>
-                        <p class="content">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <div class="program">
+                        <p class="content_r">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <div class="program_r">
                             <button type="button" class="pro">html</button>
                             <button type="button" class="pro">css</button>
                             <button type="button" class="pro">javascript</button>                               
                         </div>
                         <button type="button" class="see_button">See Project</button>
                     </div>                
-            </article>                     
+            </article>
 <!--about myself section from here-->
-            <section id="myself_div">    
-                <div class="picture_container">
+            <section class="about">    
+                <div class="picture_container" id="myself_div">
                     <div class="myself">   
-                        <h2 class="title">About<br>Myself</h2>
+                        <h2 class="title_about">About<br>Myself</h2>
 
-                        <p class="content">Hello I'm a software developer! I can help you build a product , 
+                        <p class="content" id="content_about">Hello I'm a software developer! I can help you build a product , 
                         feature or website Look through some of my work and experience! 
                         If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
 
-                        <p class="lets">LET'S CONNECT</p>
+                        <p class="lets_about">LET'S CONNECT</p>
 
-                        <nav>
-                            <ul class="social">
+                        <nav id="nav_about">
+                            <ul class="social" id="social">
                                 <li>
                                     <a href="https://github.com/Leon-Espitia" rel="noopener">
                                         <img src="./assets/icons/Github.svg" alt=""/>
@@ -186,14 +193,12 @@
                                 </li>  
                             </ul>  
                         </nav>
-                    </div>  
-
-                    <button type="button" class="get_button">Get my resume</button>
-                        
-                    <div>
+                        <button type="button" class="get_button">Get my resume</button>
+                    </div>         
+                    <div id="language">
                         <div class="union">
                             <a class="words">Languages</a>
-                            <img src="./assets/icons/union_up.png" alt="">
+                            <i id="angle" class="fa-solid fa-angle-down"></i>                    
                         </div>
 
                         <div>
@@ -208,23 +213,24 @@
                                     <img src="./assets/pictures/Frame_css.png" alt="">
                                 </li>
                             </ul>
+                            
                         </div>
-                        
+                        <img src="./assets/pictures/Language_List.png" alt="" id="lang_list">
                         <div class="union">   
                             <a class="words">Frameworks</a>
-                            <img src="./assets/icons/union_geater.png" alt="">
+                            <i id="angle_" class="fa-solid fa-angle-right"></i>
                         </div>    
-                        <hr>
+                        <hr class="line">                                  
                         <div class="union">    
                             <a class="words">Skills</a>
-                            <img src="./assets/icons/union_geater.png" alt="">
+                            <i id="angle_1" class="fa-solid fa-angle-right"></i>
                         </div> 
-                        <hr>                        
+                        <hr class="line">                        
                     </div>                   
                 </div> 
             </section>   
             <!--Contac form starts here-->
-            <section class="contact_me">
+            <section class="contact_me" id="contact_me">
                 <div class="text_area_contac">
                     <h3 id="contact_title" >Contact me</h3>
                     <p id="contact_text">
@@ -241,7 +247,7 @@
                     <input type="email" id="email_contact" placeholder="Email" required>
                     <textarea name="user_message" id="textarea_contact" rows="7" maxlength="500" placeholder="Write your message here" required></textarea>
                     
-                    <button type="submit" id="submit_btn" >Get It Touch</button>    
+                    <button type="submit" class="submit_btn">Get It Touch</button>    
                 </form>      
             </section>
         </main>
